@@ -1,0 +1,39 @@
+body {
+    background-color: palevioletred;
+    margin: 0px;
+}
+
+#login {
+
+    margin-left:50% ;
+    background-color: #ffffff;
+    padding: 17% 5%;
+    color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid palevioletred ;
+    width:70% ;
+    margin: 10px;
+
+}
+
+#entrar{
+    background-color: palevioletred;
+    color: #ffffff;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#crear {
+    background-color: #ffffff;
+    color: palevioletred;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
