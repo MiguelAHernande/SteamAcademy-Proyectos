@@ -9,14 +9,14 @@
 <body>
     <div id="login">
         <h1>Login</h1>
-        <form>
+        <div>
             <label>usuario</label><br>
-            <input type="text"><br>
+            <input id="usuario" type="text"><br>
             <label>contraseña</label><br>
-            <input type="password"><br>
-            <button id="entrar" type="submit">Log In</button>
-            <button id="crear" type="submit">sign up</button>
-        </form>
+            <input id="contr" type="password"><br>
+            <button onClick ="logIn()" id="entrar" type="button">Log In</button>
+            <button onClick ="SignIn()" id="crear" type="button">sign up</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
