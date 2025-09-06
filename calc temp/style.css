@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flexbox;
+    justify-content:center;
+    height: 100vh;
+    margin:0;
+    align-items: center;
+    transition: ease 2s;
+}
+
+.templado{
+    background-color: #7c0;
+}
+
+.caliente{
+    background-color: #ff6B34;
+}
+
+.supercaliente{
+    background-color: #E00;
+}
+
+.frio{
+    background-color: #004BFF;
+}
+
+.superfrio{
+    background-color: #707BFF;
+}
+
+.card {
+    background-color:#fff ;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 40%;
+}
+
+input {
+    height: 30px;
+    width:95%;
+    margin-bottom:10px ;
+}

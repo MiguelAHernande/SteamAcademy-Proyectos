@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Calculadora de salario</h1>
+        <label for="ph">Pago por hora</label><br>
+        <input id="ph" type="number"><br>
+        <label for="hora">Horas por semana</label><br>
+        <input id="hora" type="number"><br>
+        <p>Periodo de pago</p>
+        <select id="tipoDePago">
+            <option>Mensual</option>
+            <option>Quincenal</option>
+            <option>Semanal</option>
+        </select><br>
+        <b id="res"></b>
+        <button onclick="calc()">Calcular </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

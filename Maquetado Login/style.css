@@ -1,0 +1,41 @@
+body {
+    background-color: palevioletred;
+    margin: 0px;
+}
+
+#login {
+    justify-self: flex-end;
+    background-color: #ffffff;
+    width:50% ;
+    padding: 17% 5%;
+    color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid palevioletred ;
+    width:70% ;
+    margin: 10px;
+
+}
+
+button {
+    cursor: pointer; 
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+
+}
+
+#entrar{
+    background-color: palevioletred;
+    color: #ffffff;
+}
+
+#crear {
+    background-color: #ffffff;
+    color: palevioletred;
+
+}
