@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flexbox;
+    justify-content:center;
+    height: 100vh;
+    background-color: slategray;
+    margin:0;
+
+}
+
+.card , #tareas {
+    justify-content:center;
+    align-items: center;
+    background-color:#fff ;
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 20%;
+    flex-wrap: nowrap;
+}
+
+input {
+    border: none;
+    margin: none;
+    border-bottom: 1px solid palevioletred ;
+    width:70% ;
+    margin: 10px;
+}
+button { 
+    margin:none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    width: 20%;
+}
+#tareas{
+    min-height:200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.objeto{
+    justify-content:space-between;
+    align-content:center;
+    background-color:#fff ;
+    border-radius: 20px;
+    max-width: 80%;
+    min-width: 35%;
+    text-align: center;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px 5%;
+
+}
+
+.objeto div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.borrar{
+    background-color: red;
+    width: 90px;
+    padding: auto;
+    text-align: center;
+}
+.ind{
+    color: darkred;
+}
