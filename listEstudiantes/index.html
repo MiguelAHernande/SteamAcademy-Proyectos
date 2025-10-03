@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista Estudiantes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="form" >
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text">
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text">
+        <label for="nota">Nota promedio</label>
+        <input id="nota" type="number">
+        <label for="edad">Edad</label>
+        <input id="edad" type="number">
+        <button onclick="add()">agregar</button> 
+    </div>
+    <div id="main">
+        <h1>Estudiantes</h1>
+        <div id="lista">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
