@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin:0;
+    align-items:center;
+    justify-content: center;
+    background-color: darkslategray;
+}
+
+
+.card {
+    display: flex;
+    background-color:#FFF ;
+    border-radius: 20px;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    margin: 0 2%;
+    height:500px;
+    width:700px;
+}
+
+button {
+    cursor: pointer; 
+    border: none;
+    height:35px;
+    width:35px;
+    border-radius: 16px;
+    align-self: center;
+    justify-self: right;
+}
+
+#Tienda{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right:10px ;
+}
+
+#canasta{
+    flex-direction: column;
+    display: flex;
+    width: 35%;
+    height: 70%;
+    background-color: lightgrey;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #000;
+    border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+#list{
+    height: 75%;
+}
+
+#end{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self:flex-end;
+    background-color: #FFF;
+}
+
+#comp{
+
+    background-color: greenyellow;
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+}
